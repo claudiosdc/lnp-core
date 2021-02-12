@@ -20,7 +20,7 @@ crate-type = ["rlib", "staticlib"]
 [dependencies]
 amplify = { version = "3", features = ["stringly_conversions"] }
 amplify_derive = "2.4.3"
-lnpbp = { git = "https://github.com/LNP-BP/rust-lnpbp" }
+lnpbp = { git = "https://github.com/claudiosdc/rust-lnpbp.git", branch = "cl_sd_val_improv" }
 rgb-core = { git = "https://github.com/rgb-org/rgb-core", optional = true }
 strict_encoding = "1"
 lightning_encoding = { git = "https://github.com/LNP-BP/lnp-core" }

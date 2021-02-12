@@ -693,7 +693,7 @@ dependencies = [
  "internet2",
  "lazy_static",
  "lightning_encoding 0.4.0-alpha.2+1 (git+https://github.com/LNP-BP/lnp-core)",
- "lnpbp",
+ "lnpbp 0.4.0-beta",
  "rgb-core",
  "serde",
  "serde_with",
@@ -720,6 +720,27 @@ dependencies = [
  "serde",
  "serde_with",
  "serde_with_macros",
+ "strict_encoding",
+ "strict_encoding_derive",
+]
+
+[[package]]
+name = "lnpbp"
+version = "0.4.0-beta"
+source = "git+https://github.com/claudiosdc/rust-lnpbp.git?branch=cl_sd_val_improv#6f2a8b53d9c53f6c27bb15b795bf318f29c19c60"
+dependencies = [
+ "amplify",
+ "amplify_derive",
+ "bech32",
+ "bitcoin",
+ "bitcoin_hashes",
+ "client_side_validation",
+ "deflate",
+ "descriptor-wallet",
+ "inflate",
+ "lazy_static",
+ "lightning_encoding 0.4.0-alpha.2+1 (git+https://github.com/LNP-BP/lnp-core)",
+ "miniscript",
  "strict_encoding",
  "strict_encoding_derive",
 ]
@@ -1140,7 +1161,7 @@ dependencies = [
  "inflate",
  "lazy_static",
  "lightning_encoding 0.4.0-alpha.2+1 (git+https://github.com/LNP-BP/lnp-core)",
- "lnpbp",
+ "lnpbp 0.4.0-alpha.1",
  "miniscript",
  "num-derive",
  "num-traits",
